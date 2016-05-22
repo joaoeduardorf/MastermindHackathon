@@ -1,0 +1,7 @@
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Infra\bin\Debug\Mastermind.Infra.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Infra\bin\Debug\Mastermind.Infra.pdb
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Infra\bin\Debug\Mastermind.Domain.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Infra\bin\Debug\Mastermind.Domain.pdb
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Infra\obj\Debug\Mastermind.Infra.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Infra\obj\Debug\Mastermind.Infra.pdb
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Infra\obj\Debug\Mastermind.Infra.csprojResolveAssemblyReference.cache

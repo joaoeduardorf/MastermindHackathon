@@ -1,0 +1,7 @@
+c:\users\joão eduardo\documents\visual studio 2015\Projects\MastermindHackathon\Mastermind.Domain.Tests\obj\Debug\Mastermind.Domain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Domain.Tests\bin\Debug\Mastermind.Domain.Tests.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Domain.Tests\bin\Debug\Mastermind.Domain.Tests.pdb
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Domain.Tests\bin\Debug\Mastermind.Domain.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Domain.Tests\bin\Debug\Mastermind.Domain.pdb
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Domain.Tests\obj\Debug\Mastermind.Domain.Tests.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Domain.Tests\obj\Debug\Mastermind.Domain.Tests.pdb

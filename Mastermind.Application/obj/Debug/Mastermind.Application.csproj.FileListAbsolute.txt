@@ -1,0 +1,7 @@
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Application\bin\Debug\Mastermind.Application.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Application\bin\Debug\Mastermind.Application.pdb
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Application\obj\Debug\Mastermind.Application.csprojResolveAssemblyReference.cache
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Application\obj\Debug\Mastermind.Application.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Application\obj\Debug\Mastermind.Application.pdb
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Application\bin\Debug\Mastermind.Domain.dll
+C:\Users\João Eduardo\Documents\Visual Studio 2015\Projects\MastermindHackathon\Mastermind.Application\bin\Debug\Mastermind.Domain.pdb

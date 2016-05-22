@@ -1,0 +1,5 @@
+c:\users\joão eduardo\documents\visual studio 2015\Projects\MastermindHackathon\Mastermind.Domain\bin\Debug\Mastermind.Domain.dll
+c:\users\joão eduardo\documents\visual studio 2015\Projects\MastermindHackathon\Mastermind.Domain\bin\Debug\Mastermind.Domain.pdb
+c:\users\joão eduardo\documents\visual studio 2015\Projects\MastermindHackathon\Mastermind.Domain\obj\Debug\Mastermind.Domain.csprojResolveAssemblyReference.cache
+c:\users\joão eduardo\documents\visual studio 2015\Projects\MastermindHackathon\Mastermind.Domain\obj\Debug\Mastermind.Domain.dll
+c:\users\joão eduardo\documents\visual studio 2015\Projects\MastermindHackathon\Mastermind.Domain\obj\Debug\Mastermind.Domain.pdb

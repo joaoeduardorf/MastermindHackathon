@@ -1,0 +1,142 @@
+﻿<div ng-app="app" ng-controller="HttpGetController">
+    <p>Game Id: <input type="text" name="firstName" ng-model="GameId" required /></p>
+    <p>Position 1: <input type="text" name="firstName" ng-model="PositionOfPeg1" required /></p>
+    <p>Position 2: <input type="text" name="lastName" ng-model="PositionOfPeg2" required /></p>
+    <p>Position 3: <input type="text" name="firstName" ng-model="PositionOfPeg3" required /></p>
+    <p>Position 4: <input type="text" name="lastName" ng-model="PositionOfPeg4" required /></p>
+    <p>Position 5: <input type="text" name="firstName" ng-model="PositionOfPeg5" required /></p>
+    <p>Position 6: <input type="text" name="lastName" ng-model="PositionOfPeg6" required /></p>
+    <p>Position 7: <input type="text" name="firstName" ng-model="PositionOfPeg7" required /></p>
+    <p>Position 8: <input type="text" name="lastName" ng-model="PositionOfPeg8" required /></p>
+    <p>Correct: <input type="text" name="lastName" ng-model="Correct" required /></p>
+    <button ng-click="NewGameSinglePlayer()">New Game Single Player</button>
+    <button ng-click="NewGameMultiplayer()">New Game Multi Player</button>
+    <button ng-click="SendCode()">Send Code</button>
+    <hr />
+    {{ PostDataResponse }}
+</div>
+<script src="~/Scripts/angular.min.js"></script>
+<script>
+    var app = angular.module("app", []);
+    app.controller("HttpGetController", function ($scope, $http) {
+
+        $scope.NewGameSinglePlayer = function () {
+           // use $.param jQuery function to serialize data from JSON
+            var data = {
+                GameId: 'aaaaaa',
+                PositionOfPeg1: 8,
+                PositionOfPeg2: 3,
+                PositionOfPeg3: 4,
+                PositionOfPeg4: 7,
+                PositionOfPeg5: 1,
+                PositionOfPeg6: 6,
+                PositionOfPeg7: 2,
+                PositionOfPeg8: 5
+            };
+
+            $http.post('/Home/NewGameSinglePlayer', JSON.stringify(data))
+            .success(function (data) {
+                $scope.PostDataResponse = data;
+                //$scope.PostDataResponse = data
+                $scope.GameId = data;
+                //$scope.PositionOfPeg1 = data.PositionOfPeg1;
+                //$scope.PositionOfPeg2 = data.PositionOfPeg2;
+                //$scope.PositionOfPeg3 = data.PositionOfPeg3;
+                //$scope.PositionOfPeg4 = data.PositionOfPeg4;
+                //$scope.PositionOfPeg5 = data.PositionOfPeg5;
+                //$scope.PositionOfPeg6 = data.PositionOfPeg6;
+                //$scope.PositionOfPeg7 = data.PositionOfPeg7;
+                //$scope.PositionOfPeg8 = data.PositionOfPeg8;
+
+                //console.log(data);
+            })
+            .error(function (data, status, header) {
+                $scope.ResponseDetails = "Data: " + data +
+                    "<hr />status: " + status +
+                    "<hr />headers: " + header +
+                    "<hr />config: " + config;
+            });
+        };
+
+        $scope.NewGameMultiplayer = function () {
+            // use $.param jQuery function to serialize data from JSON
+            var data = {
+                GameId: $scope.GameId,
+                PositionOfPeg1: $scope.PositionOfPeg1,
+                PositionOfPeg2: $scope.PositionOfPeg2,
+                PositionOfPeg3: $scope.PositionOfPeg3,
+                PositionOfPeg4: $scope.PositionOfPeg4,
+                PositionOfPeg5: $scope.PositionOfPeg5,
+                PositionOfPeg6: $scope.PositionOfPeg6,
+                PositionOfPeg7: $scope.PositionOfPeg7,
+                PositionOfPeg8: $scope.PositionOfPeg8
+            };
+
+            $http.post('/Home/NewGameMuiltPlayer', JSON.stringify(data))
+            .success(function (data) {
+                //$scope.PostDataResponse = data;
+                $scope.PostDataResponse = data
+                $scope.GameId = data;
+                //$scope.PositionOfPeg1 = data.PositionOfPeg1;
+                //$scope.PositionOfPeg2 = data.PositionOfPeg2;
+                //$scope.PositionOfPeg3 = data.PositionOfPeg3;
+                //$scope.PositionOfPeg4 = data.PositionOfPeg4;
+                //$scope.PositionOfPeg5 = data.PositionOfPeg5;
+                //$scope.PositionOfPeg6 = data.PositionOfPeg6;
+                //$scope.PositionOfPeg7 = data.PositionOfPeg7;
+                //$scope.PositionOfPeg8 = data.PositionOfPeg8;
+
+                console.log(data);
+            })
+            .error(function (data, status, header) {
+                $scope.ResponseDetails = "Data: " + data +
+                    "<hr />status: " + status +
+                    "<hr />headers: " + header +
+                    "<hr />config: " + config;
+            });
+        };
+
+        $scope.SendCode = function () {
+            // use $.param jQuery function to serialize data from JSON
+            var data = {
+                GameId: $scope.GameId,
+                Position1: $scope.PositionOfPeg1,
+                Position2: $scope.PositionOfPeg2,
+                Position3: $scope.PositionOfPeg3,
+                Position4: $scope.PositionOfPeg4,
+                Position5: $scope.PositionOfPeg5,
+                Position6: $scope.PositionOfPeg6,
+                Position7: $scope.PositionOfPeg7,
+                Position8: $scope.PositionOfPeg8
+            };
+
+            //$http.post('/api/CodeBreaker', JSON.stringify(data))
+            //.success(function (data) {
+            //    $scope.PostDataResponse = data;
+            //})
+            //.error(function (data, status, header) {
+            //    $scope.ResponseDetails = "Data: " + data +
+            //        "<hr />status: " + status +
+            //        "<hr />headers: " + header +
+            //        "<hr />config: " + config;
+            //});
+
+            $http.post('/Home/SendCode', JSON.stringify(data))
+            .success(function (data) {
+                //$scope.PostDataResponse = data;
+                //$scope.PostDataResponse = data
+                //$scope.GameId = data;
+                $scope.Correct = data;
+
+                console.log(data);
+            })
+            .error(function (data, status, header) {
+                $scope.ResponseDetails = "Data: " + data +
+                    "<hr />status: " + status +
+                    "<hr />headers: " + header +
+                    "<hr />config: " + config;
+            });
+        };
+
+    });
+</script>
